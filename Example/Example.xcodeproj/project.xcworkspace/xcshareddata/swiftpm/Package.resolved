@@ -1,0 +1,15 @@
+{
+  "originHash" : "48cb213bea721d0cefcbb64d295a6261480212e1d99f07f54ae3ff3f7fd6d3e2",
+  "pins" : [
+    {
+      "identity" : "wwtableviewparallaxcell",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/William-Weng/WWTableViewParallaxCell",
+      "state" : {
+        "revision" : "55284d805f28dccbbb7ed150a34c94a3cfe38a9d",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}

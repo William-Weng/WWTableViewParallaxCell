@@ -5,11 +5,6 @@
 - [Implementing parallax scrolling effect.](https://blog.csdn.net/baby_hua/article/details/50378138)
 - [實現視差捲動效果](https://www.cnblogs.com/xiaofeixiang/p/5152828.html)
 
-
-<video height="480" auto controls>
-  <source src="https://github.com/user-attachments/assets/94ebd815-fb83-4786-9692-697e4961a960" type="video/mp4">
-</video>
-
 https://github.com/user-attachments/assets/94ebd815-fb83-4786-9692-697e4961a960
 
 ### [Installation with Swift Package Manager](https://medium.com/彼得潘的-swift-ios-app-開發問題解答集/使用-spm-安裝第三方套件-xcode-11-新功能-2c4ffcf85b4b)

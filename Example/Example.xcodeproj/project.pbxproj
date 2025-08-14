@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		817568102CA2C31500B24577 /* TableViewDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8175680F2CA2C31500B24577 /* TableViewDemoController.swift */; };
 		81B496D32E4DB0A50056C244 /* WWTableViewParallaxCell in Frameworks */ = {isa = PBXBuildFile; productRef = 81B496D22E4DB0A50056C244 /* WWTableViewParallaxCell */; };
 		81CEB1B32E4DB6060013B578 /* WWTableViewParallaxCell in Frameworks */ = {isa = PBXBuildFile; productRef = 81CEB1B22E4DB6060013B578 /* WWTableViewParallaxCell */; };
+		81CEB1B62E4DBB160013B578 /* WWTableViewParallaxCell in Frameworks */ = {isa = PBXBuildFile; productRef = 81CEB1B52E4DBB160013B578 /* WWTableViewParallaxCell */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 			files = (
 				81B496D32E4DB0A50056C244 /* WWTableViewParallaxCell in Frameworks */,
 				81CEB1B32E4DB6060013B578 /* WWTableViewParallaxCell in Frameworks */,
+				81CEB1B62E4DBB160013B578 /* WWTableViewParallaxCell in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,6 +124,7 @@
 			packageProductDependencies = (
 				81B496D22E4DB0A50056C244 /* WWTableViewParallaxCell */,
 				81CEB1B22E4DB6060013B578 /* WWTableViewParallaxCell */,
+				81CEB1B52E4DBB160013B578 /* WWTableViewParallaxCell */,
 			);
 			productName = Example;
 			productReference = 817567F82CA2C2B400B24577 /* Example.app */;
@@ -152,7 +155,7 @@
 			);
 			mainGroup = 817567EF2CA2C2B400B24577;
 			packageReferences = (
-				81CEB1B12E4DB6060013B578 /* XCLocalSwiftPackageReference "../../WWTableViewParallaxCell" */,
+				81CEB1B42E4DBB160013B578 /* XCRemoteSwiftPackageReference "WWTableViewParallaxCell" */,
 			);
 			productRefGroup = 817567F92CA2C2B400B24577 /* Products */;
 			projectDirPath = "";
@@ -417,12 +420,16 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		81CEB1B12E4DB6060013B578 /* XCLocalSwiftPackageReference "../../WWTableViewParallaxCell" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../../WWTableViewParallaxCell;
+/* Begin XCRemoteSwiftPackageReference section */
+		81CEB1B42E4DBB160013B578 /* XCRemoteSwiftPackageReference "WWTableViewParallaxCell" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/William-Weng/WWTableViewParallaxCell";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
 		};
-/* End XCLocalSwiftPackageReference section */
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		81B496D22E4DB0A50056C244 /* WWTableViewParallaxCell */ = {
@@ -431,6 +438,11 @@
 		};
 		81CEB1B22E4DB6060013B578 /* WWTableViewParallaxCell */ = {
 			isa = XCSwiftPackageProductDependency;
+			productName = WWTableViewParallaxCell;
+		};
+		81CEB1B52E4DBB160013B578 /* WWTableViewParallaxCell */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 81CEB1B42E4DBB160013B578 /* XCRemoteSwiftPackageReference "WWTableViewParallaxCell" */;
 			productName = WWTableViewParallaxCell;
 		};
 /* End XCSwiftPackageProductDependency section */
