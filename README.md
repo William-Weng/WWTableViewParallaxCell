@@ -7,8 +7,10 @@
 
 
 <video height="480" auto controls>
-  <source src="https://github-production-user-asset-6210df.s3.amazonaws.com/18256962/477870190-94ebd815-fb83-4786-9692-697e4961a960.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250814%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250814T062857Z&X-Amz-Expires=300&X-Amz-Signature=f896d77c28ffae7d39da5b8947eb4231728919b3ffa793a30febd5b2be9e1804&X-Amz-SignedHeaders=host" type="video/mp4">
-</video> 
+  <source src="https://github.com/user-attachments/assets/94ebd815-fb83-4786-9692-697e4961a960" type="video/mp4">
+</video>
+
+https://github.com/user-attachments/assets/94ebd815-fb83-4786-9692-697e4961a960
 
 ### [Installation with Swift Package Manager](https://medium.com/彼得潘的-swift-ios-app-開發問題解答集/使用-spm-安裝第三方套件-xcode-11-新功能-2c4ffcf85b4b)
 
