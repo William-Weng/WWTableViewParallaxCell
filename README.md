@@ -1,11 +1,14 @@
-# WWTableViewParallaxCell+MNIST
+# WWTableViewParallaxCell
 [![Swift-5.7](https://img.shields.io/badge/Swift-5.7-orange.svg?style=flat)](https://developer.apple.com/swift/) [![iOS-16.0](https://img.shields.io/badge/iOS-16.0-pink.svg?style=flat)](https://developer.apple.com/swift/) ![TAG](https://img.shields.io/github/v/tag/William-Weng/WWTableViewParallaxCell) [![Swift Package Manager-SUCCESS](https://img.shields.io/badge/Swift_Package_Manager-SUCCESS-blue.svg?style=flat)](https://developer.apple.com/swift/) [![LICENSE](https://img.shields.io/badge/LICENSE-MIT-yellow.svg?style=flat)](https://developer.apple.com/swift/)
 
 ### [Introduction - 簡介](https://swiftpackageindex.com/William-Weng)
 - [Implementing parallax scrolling effect.](https://blog.csdn.net/baby_hua/article/details/50378138)
 - [實現視差捲動效果](https://www.cnblogs.com/xiaofeixiang/p/5152828.html)
 
-![](./Example.png)
+
+<video height="480" auto controls>
+  <source src="https://github-production-user-asset-6210df.s3.amazonaws.com/18256962/477870190-94ebd815-fb83-4786-9692-697e4961a960.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250814%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250814T062857Z&X-Amz-Expires=300&X-Amz-Signature=f896d77c28ffae7d39da5b8947eb4231728919b3ffa793a30febd5b2be9e1804&X-Amz-SignedHeaders=host" type="video/mp4">
+</video> 
 
 ### [Installation with Swift Package Manager](https://medium.com/彼得潘的-swift-ios-app-開發問題解答集/使用-spm-安裝第三方套件-xcode-11-新功能-2c4ffcf85b4b)
 
