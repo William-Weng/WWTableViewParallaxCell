@@ -21,7 +21,7 @@ final class TableViewDemoController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        TableViewParallaxCell._parallaxCells(myTableView, didScrollOnView: view)
+        TableViewParallaxCell.parallaxCells(myTableView, didScrollOn: view)
     }
 }
 
@@ -45,6 +45,6 @@ extension TableViewDemoController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        TableViewParallaxCell._parallaxCells(myTableView, didScrollOnView: view)
+        TableViewParallaxCell.parallaxCells(myTableView, didScrollOn: view)
     }
 }

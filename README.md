@@ -11,14 +11,19 @@ https://github.com/user-attachments/assets/94ebd815-fb83-4786-9692-697e4961a960
 
 ```bash
 dependencies: [
-    .package(url: "https://github.com/William-Weng/WWTableViewParallaxCell.git", .upToNextMajor(from: "1.0.0"))
+    .package(url: "https://github.com/William-Weng/WWTableViewParallaxCell.git", .upToNextMajor(from: "1.0.2"))
 ]
 ```
 
+### Function
+|函式|功能|
+|-|-|
+|parallaxCells(_:didScrollOn:)|取得要實現視差的UIImageView|
+    
 ### [WWTableViewParallaxCell](https://ezgif.com/video-to-webp)
 |函式|功能|
 |-|-|
-|parallaxImageView()|取得要實現視差的UIImageView|
+|parallaxImageView()|滾動視差 (看得到的Cell)|
 
 ### Example
 ```swift
@@ -37,7 +42,7 @@ final class TableViewDemoController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        TableViewParallaxCell._parallaxCells(myTableView, didScrollOnView: view)
+        TableViewParallaxCell.parallaxCells(myTableView, didScrollOn: view)
     }
 }
 
@@ -60,7 +65,7 @@ extension TableViewDemoController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        TableViewParallaxCell._parallaxCells(myTableView, didScrollOnView: view)
+        TableViewParallaxCell.parallaxCells(myTableView, didScrollOn: view)
     }
 }
 ```

@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/William-Weng/WWTableViewParallaxCell",
       "state" : {
-        "revision" : "55284d805f28dccbbb7ed150a34c94a3cfe38a9d",
-        "version" : "1.0.0"
+        "revision" : "55e2d480014f08f05cf493c153f5e5ce3e92ad84",
+        "version" : "1.0.1"
       }
     }
   ],

@@ -14,7 +14,7 @@ public extension UITableViewCell {
     /// - Parameters:
     ///   - tableView: UITableView
     ///   - view: UIView
-    static func _parallaxCells(_ tableView: UITableView, didScrollOnView view: UIView) {
+    static func parallaxCells(_ tableView: UITableView, didScrollOn view: UIView) {
         
         for cell in tableView.visibleCells {
             guard let cell = cell as? WWTableViewParallaxCell else { return }
